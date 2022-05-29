@@ -1,0 +1,39 @@
+- name: BurgerBuilder
+  link: burgerbuilder.html
+  img: assets/images/burgerbuilder/burgerbuilder.png
+  content: assets/content/burgerbuilderContent.html
+
+- name: Extinction
+  link: extinction.html
+  img: assets/images/general/greybox.png
+  content: assets/content/burgerbuilderContent.html
+
+- name: Extinction
+  link: extinction.html
+  img: assets/images/general/greybox.png
+  content: assets/content/burgerbuilderContent.html
+
+- name: Extinction
+  link: extinction.html
+  img: assets/images/general/greybox.png
+  content: assets/content/burgerbuilderContent.html
+
+- name: Extinction
+  link: extinction.html
+  img: assets/images/general/greybox.png
+  content: assets/content/burgerbuilderContent.html
+
+- name: Extinction
+  link: extinction.html
+  img: assets/images/general/greybox.png
+  content: assets/content/burgerbuilderContent.html
+
+- name: Extinction
+  link: extinction.html
+  img: assets/images/general/greybox.png
+  content: assets/content/burgerbuilderContent.html
+
+- name: Extinction
+  link: extinction.html
+  img: assets/images/general/greybox.png
+  content: assets/content/burgerbuilderContent.html

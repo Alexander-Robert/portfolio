@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  color: #999; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #333; }
+
+.content-section {
+  margin: 1em; }
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em; }
+
+.nav ul {
+  margin: 0; }
+
+.nav li {
+  display: inline; }
+
+.nav a {
+  display: inline-block;
+  padding: .5em;
+  color: white;
+  text-decoration: none; }
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3); }
+
+.current {
+  background-color: rgba(255, 255, 255, 0.2); }
+
+.main-nav {
+  text-align: right;
+  font-size: 1.1em;
+  font-weight: lighter; }
+
+.main-nav li {
+  padding: 0 5%; }
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  background-size: cover;
+  padding-bottom: 0px;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.3); }
+
+.page-header {
+  display: inline;
+  padding: 0 2%;
+  font-weight: normal;
+  font-size: 1.5em; }
+
+.in-line {
+  display: flex;
+  align-items: baseline; }
+
+.game-gallery-title {
+  text-align: left;
+  width: 33.333333%;
+  padding-left: 2%; }
+
+.project-section {
+  width: 33.333333%;
+  text-align: center; }
+
+.design-preview {
+  position: fixed;
+  top: 150px;
+  left: 50px;
+  height: 500px; }
+
+.design {
+  position: fixed;
+  top: 150px;
+  left: 55%;
+  max-width: 500px; }
+
+.design h1 {
+  position: center; }
+
+.bookmark {
+  position: fixed;
+  top: 100px;
+  right: 25px;
+  height: 50px; }
+
+.achievements {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  height: 50px; }
+
+.design-icon {
+  position: fixed;
+  top: 37.5%;
+  right: 10px;
+  height: 50px; }
+
+.code-icon {
+  position: fixed;
+  top: 50%;
+  right: 12px;
+  height: 50px; }
+
+.lightbulb-icon {
+  position: fixed;
+  top: 62.5%;
+  right: 17.5px;
+  height: 50px; }
+
+.gallery {
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
+  list-style-type: none; }
+
+.gallery li {
+  display: inline;
+  align-items: center; }
+
+.gallery img {
+  display: inline-block;
+  padding: .75em;
+  padding-left: 3em;
+  padding-right: 3em;
+  color: white;
+  text-decoration: none; }
+
+.gallery span {
+  display: none; }

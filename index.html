@@ -1,0 +1,32 @@
+---
+# front matter tells Jekyll to process Liquid
+title: Home
+header: Alexander Robert - Game Design Portfolio
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+</head>
+
+<body>
+    <h2></h2>
+    <div class = "in-line">
+        <h3 class = "game-gallery-title">Game Gallery</h3>
+        <h3 class = "project-section">Capstone Projects</h3>
+    </div>
+    <ul class = "gallery">
+        <nav>
+            {% for item in site.data.gallery %}
+            <a href="{{ item.link }}"><img src= {{ item.img }}></a>
+            <span>{% include_relative {{item.content}} %}</span>
+            {% endfor %}
+        </nav>
+    </ul>
+</body>
+
+</html>

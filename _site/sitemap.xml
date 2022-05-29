@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/portfolio/authors/alexanderrobert.html</loc>
+<lastmod>2022-05-29T15:45:22-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/2022/05/27/burgerbuilder.html</loc>
+<lastmod>2022-05-27T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/about.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/blog.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/burgerbuilder.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/contact.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/extinction.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/staff.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/portfolio/assets/content/burgerbuilderContent.html</loc>
+<lastmod>2022-05-29T14:54:13-07:00</lastmod>
+</url>
+</urlset>
