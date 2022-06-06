@@ -8,6 +8,7 @@
     box-sizing: border-box;
     font-family: Roboto;
     color: #999;
+    scroll-behavior: smooth;
 }
 
 html, body {
@@ -67,7 +68,26 @@ html, body {
     border-bottom: 4px solid rgba(255,255,255,.3);
 }
 
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgba(0,0,0,6);
+    //background-image: url("../images/banner.png");
+    //background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 0px;
+    border-top: 4px solid rgba(255,255,255,.3);
+}
+
 .page-header {
+    display: inline;
+    padding: 0 2%;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.page-footer {
     display: inline;
     padding: 0 2%;
     font-weight: normal;
@@ -79,6 +99,10 @@ html, body {
     //justify-content:center;
     align-items: baseline;
 }
+
+.hidden-class { display: none; }
+.show-class { display: inline; }
+
 
 .game-gallery-title{
     text-align: left;
@@ -119,6 +143,24 @@ html, body {
     bottom:10px; 
     right:15px; 
     height: 50px;
+}
+
+.contact-container {
+    display: block;
+    align-content: center;
+}
+.contact-container p{
+    //TODO figure out how to center this with the icon
+    text-align: center;
+    //display: none;
+}
+.contact-container img{
+    align-self: center;
+    width: 50px;
+}
+.about img{
+    align-self: center;
+    width: 200px;
 }
 
 .design-icon {

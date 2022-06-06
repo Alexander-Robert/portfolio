@@ -1,0 +1,9 @@
+- name: LinkedIn
+  link: https://www.linkedin.com/in/alexander-robert-b464a11a1/
+  image: assets/images/contact/linkedin.png
+- name: GitHub
+  link: https://github.com/alexander-Robert/
+  image: assets/images/contact/github_white.png
+- name: Email
+  link: "mailto:alexliamrobert+gameportfolio@gmail.com"
+  image: assets/images/contact/email_white.png

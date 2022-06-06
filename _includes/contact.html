@@ -1,0 +1,9 @@
+<div id="contact">
+    <h1 class = "page-footer">Contact Me</h1>
+  <nav class = "nav main-nav">
+    {% for item in site.data.contact %}
+    <a href="{{ item.link }}" class = "contact-container"> <p>{{ item.name }}</p>
+      {% if item.image != null %} <img src= {{ item.image }}> {% endif %}</a>
+    {% endfor %}
+  </nav>
+</div>

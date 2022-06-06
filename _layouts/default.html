@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="scripts.js"></script>
   {% feed_meta %}
   {% seo %}
 </head>
@@ -19,5 +20,7 @@
     <img class = "achievements" src = "assets/images/general/quest Icon.jpg">
     {{ content }}
   </body>
-
+<footer class = "main-footer"> 
+  {% include contact.html %}
+</footer>
 </html>
