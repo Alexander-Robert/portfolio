@@ -8,7 +8,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #333; }
+  background-color: #333;
+  position: relative; }
 
 .content-section {
   margin: 1em; }
@@ -84,6 +85,9 @@ html, body {
 .show-class {
   display: inline; }
 
+.empty-padding {
+  min-height: 700px; }
+
 .game-gallery-title {
   text-align: left;
   width: 33.333333%;
@@ -93,20 +97,32 @@ html, body {
   width: 33.333333%;
   text-align: center; }
 
-.design-preview {
+.lesson {
   position: fixed;
-  top: 150px;
-  left: 50px;
+  min-width: 500px;
+  left: 50%; }
+
+.lesson p {
+  max-width: 50%; }
+
+.lesson h1 {
+  text-align: center; }
+
+.example {
+  position: relative;
+  padding: 50px; }
+
+.design-preview {
+  height: 500px; }
+
+.code-preview {
+  height: 500px; }
+
+.learn-preview {
   height: 500px; }
 
 .design {
-  position: fixed;
-  top: 150px;
-  left: 55%;
-  max-width: 500px; }
-
-.design h1 {
-  position: center; }
+  position: relative; }
 
 .bookmark {
   position: fixed;

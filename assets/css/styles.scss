@@ -15,6 +15,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #333;
+    position: relative;
 }
 
 .content-section {
@@ -103,6 +104,9 @@ html, body {
 .hidden-class { display: none; }
 .show-class { display: inline; }
 
+.empty-padding {
+    min-height: 700px;
+}
 
 .game-gallery-title{
     text-align: left;
@@ -114,23 +118,39 @@ html, body {
     text-align: center;
 }
 
+.lesson {
+    //position: relative;
+    position: fixed;
+    min-width: 500px;
+    left: 50%;
+}
+.lesson p {
+    max-width: 50%;
+}
+.lesson h1 {
+    text-align: center;
+}
+
+.example {
+    position: relative;
+    padding: 50px;
+}
+
 .design-preview {
-    position:fixed; 
-    top:150px; 
-    left:50px; 
+    height: 500px;
+}
+
+.code-preview {
+    height: 500px;
+}
+
+.learn-preview {
     height: 500px;
 }
 
 .design {
-    position:fixed; 
-    top:150px; 
-    left:55%; 
-    max-width: 500px;
+    position: relative;
 }
-.design h1 {
-    position:center;
-}
-
 
 .bookmark {
     position:fixed; 

@@ -13,11 +13,12 @@ layout: default
 </head>
 
 <body>
+    {{content}}
+    <!-- CONTENT LAYERING DISPLAYS LAST DEFINED ITEMS FIRST -->
+    <!-- Therefore, we need to display these above the content so we can interact with them -->
     <img class = "design-icon" src = "assets/images/general/design icon.png"> 
     <img class = "code-icon" src = "assets/images/general/code icon circle.png">
     <img class = "lightbulb-icon" src = "assets/images/general/lightbulb icon.png">
-
-    {{content}}
 </body>
 
 </html>
