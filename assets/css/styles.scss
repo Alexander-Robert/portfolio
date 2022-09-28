@@ -69,6 +69,10 @@ html, body {
     border-bottom: 4px solid rgba(255,255,255,.3);
 }
 
+.main-body {
+    //min-height: 90vh;
+}
+
 .main-footer {
     display: flex;
     justify-content: space-between;
@@ -102,7 +106,7 @@ html, body {
 }
 
 .hidden-class { display: none; }
-.show-class { display: inline; }
+.show-class { display:inline; }
 
 .empty-padding {
     min-height: 700px;
@@ -119,21 +123,27 @@ html, body {
 }
 
 .lesson {
-    //position: relative;
-    position: fixed;
-    min-width: 500px;
-    left: 50%;
+    position: relative;
+    float: right;
+    padding-right: 12%;
+    padding-top: 20px;
+    //display: flex;
+    //position: fixed;
+    //min-width: 500px;
+    //left: 50%;
 }
 .lesson p {
-    max-width: 50%;
+    max-width: 30vw;
 }
 .lesson h1 {
     text-align: center;
 }
 
 .example {
-    position: relative;
+    //position: relative;
+    //float: left;
     padding: 50px;
+
 }
 
 .design-preview {
@@ -163,6 +173,14 @@ html, body {
     bottom:10px; 
     right:15px; 
     height: 50px;
+}
+
+.scrollable {
+    height:60vh;
+    width:60vw;
+    border:1px solid #ccc;
+    //font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
 }
 
 .contact-container {
